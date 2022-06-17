@@ -18,7 +18,7 @@ for( var i = 0, n = fibArray.lenght; i<n; i++) {
 function fibSeq() {
 
     var a = 1;
-    var b = =2
+    var b = 2
     var next = a + b;
     
     var fibArray = []
@@ -33,8 +33,10 @@ function fibSeq() {
         b = next
         next = a+b
     }
-    return fibArray
+    return fibArray;
 
     }
     
 
+console.log(fibSeq());
+console.log(sumFibonacci());
